@@ -1,4 +1,4 @@
-# Water-Portability-Analysis
+# AQUAINSIGHT - Water-Portability-Analysis
 EVS PROJECT - 4th Semester
 # Water Quality Analysis using AI
 
