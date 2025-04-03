@@ -1,5 +1,6 @@
 # 🌊 Aqua Insight
-### EVS PROJECT, 4th Semester, BTech CSE.
+### Sustainability, Climate Actions & Environmental Sciences - PROJECT
+###4th Semester, BTech CSE.
 ### INSTITUTE OF ENGINEERING AND MANAGEMENT, Kolkata.
 
 ## 👤 Contributor
