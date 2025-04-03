@@ -70,7 +70,7 @@ This project is implemented as a **standalone Python script in Google Colab**, a
 - Adding real-time water quality data sources.
 
 ---
-**Contributors**: *ATREYEE DAS*
+**Contributor**: *ATREYEE DAS*
 
 For questions, feel free to raise an issue or contribute to the project!
 
