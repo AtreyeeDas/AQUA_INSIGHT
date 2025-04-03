@@ -1,76 +1,65 @@
-# AQUAINSIGHT - Water-Portability-Analysis
-EVS PROJECT - 4th Semester
-# Water Quality Analysis using AI
+# 🌊 Aqua Insight
+### EVS PROJECT, 4th Semester, BTech CSE.
+### INSTITUTE OF ENGINEERING AND MANAGEMENT, Kolkata.
+## 📌 Project Overview
+Aqua Insight is a machine learning-based water quality analysis project designed to assess the potability of water based on various physicochemical parameters. The project takes user input, analyzes it, and determines whether the water is **safe** or **not safe** for consumption. Additionally, it provides insights into possible contamination causes and suggests purification methods.
 
-## Overview
-This project predicts the potability (safety for drinking) of water based on various water quality parameters. It utilizes machine learning to classify water as **safe** or **not safe**, and integrates **Google's Gemini AI** for further analysis and suggestions on water quality improvement.
+## 📊 Dataset Used
+The dataset used for this project includes various water quality parameters that influence potability. The key columns in the dataset are:
 
-## Dataset
-The dataset used in this project is sourced from Kaggle: **Water Quality and Potability Dataset**. It contains various physicochemical attributes of water and a label indicating whether the water is potable.
+- **pH** - Acidity or alkalinity of water
+- **Hardness (mg/L)** - The amount of dissolved calcium and magnesium
+- **Total Dissolved Solids (TDS) (mg/L)** - The concentration of dissolved substances in water
+- **Chloramines (mg/L)** - A disinfectant used to treat water
+- **Sulfate (mg/L)** - A naturally occurring substance in water
+- **Conductivity (µS/cm)** - Water's ability to conduct electricity
+- **Organic Carbon (mg/L)** - The amount of carbon-based compounds in water
+- **Trihalomethanes (µg/L)** - Chemical byproducts of disinfection
+- **Turbidity (NTU)** - Cloudiness of water
+- **Potability** - A binary indicator (1 = Safe, 0 = Not Safe)
 
-### Features in the dataset:
-- **pH**: Measure of how acidic/basic the water is.
-- **Hardness (mg/L)**: Amount of dissolved calcium and magnesium in the water.
-- **Total Dissolved Solids (TDS) (mg/L)**: Concentration of dissolved substances in water.
-- **Chloramines (mg/L)**: Disinfectants used in water treatment.
-- **Sulfate (mg/L)**: Concentration of sulfate ions in water.
-- **Conductivity (µS/cm)**: Water's ability to conduct electricity.
-- **Organic Carbon (mg/L)**: Presence of organic compounds in water.
-- **Trihalomethanes (µg/L)**: Byproducts of chlorine disinfection.
-- **Turbidity (NTU)**: Cloudiness of water.
-- **Potability** (Target Variable): **1** (Safe), **0** (Not Safe)
+## ⚙️ How It Works
 
-## Code Explanation
-This project is implemented as a **standalone Python script in Google Colab**, allowing users to input water quality values and receive predictions.
+The project follows these steps:
 
-### 1. **Dataset Handling**
-- The dataset is downloaded from Kaggle.
-- Missing values are filled using the median.
-- Features (X) and target variable (y) are separated.
-- Train-test split is performed (75%-25%).
-- **SMOTE** (Synthetic Minority Over-sampling Technique) is used to balance the dataset.
+1. **Data Preprocessing** 🛠️
+   - Handles missing values
+   - Normalizes and scales the data
+   
+2. **Model Training** 🤖
+   - Uses a machine learning classification model to predict potability
+   - Trains the model on labeled water quality data
 
-### 2. **Data Preprocessing**
-- Data is normalized using **StandardScaler** to improve model performance.
+3. **User Input & Prediction** 🧪
+   - Accepts user-provided water quality parameters
+   - Predicts whether the water is potable
+   
+4. **Quality Analysis with Gemini API** 🔬
+   - Generates detailed insights on contamination reasons
+   - Provides purification recommendations
 
-### 3. **Model Training**
-- A **RandomForestClassifier** is trained on the preprocessed data.
+## 🚀 Why is This Useful?
 
-### 4. **User Input Handling**
-- The program prompts users to enter values for each water quality parameter.
+- **Ensures Safe Drinking Water** 🏡🚰
+- **Provides Scientific Justification** 📚
+- **Helps in Water Quality Monitoring** 🌎💧
+- **Aids in Water Treatment Decisions** 🏭⚗️
 
-### 5. **Prediction**
-- The trained model predicts whether the water is safe (**potable**) or unsafe (**not potable**).
+## 👤 Contributor
+**Atreyee Das** - Solo Contributor 🎓💻
 
-### 6. **Google Gemini AI Analysis**
-- The input values are sent to Google's **Gemini AI**.
-- Gemini AI provides a detailed analysis explaining:
-  - If the water is safe or not.
-  - Main contamination reasons.
-  - Suggested purification techniques.
-
-## How This Project is Useful
-- **Public Health Awareness**: Helps identify unsafe drinking water sources.
-- **AI-Driven Insights**: Uses **Google Gemini AI** to provide advanced analysis.
-- **Data-Driven Decision Making**: Can assist in **policy-making** and **environmental monitoring**.
-- **Customizable & Expandable**: The code can be improved with additional parameters, more advanced ML models, or better AI integration.
-
-## Installation & Usage
+## 📌 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/water-quality-analysis.git
+   git clone https://github.com/your-repo-url.git
    ```
-2. Open the Google Colab notebook and run the cells.
-3. Enter water quality values when prompted.
-4. View the prediction and Gemini AI analysis in the output.
+2. Open the notebook in Google Colab.
+3. Run the cells step by step.
+4. Enter your water quality parameters when prompted.
+5. Get the potability prediction and insights.
 
-## Future Enhancements
-- Integration with **deep learning models** for higher accuracy.
-- Deploying as a **web app** for ease of access.
-- Adding real-time water quality data sources.
+## 📢 Let's Connect!
+💬 Feel free to contribute, report issues, or suggest improvements!
 
----
-**Contributor**: *ATREYEE DAS*
-
-For questions, feel free to raise an issue or contribute to the project!
+🌟 If you find this project useful, don't forget to **star ⭐ the repository**!
 
