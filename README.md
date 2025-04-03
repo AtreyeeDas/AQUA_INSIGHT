@@ -1,6 +1,6 @@
 # 🌊 Aqua Insight
 ### Sustainability, Climate Actions & Environmental Sciences - PROJECT
-###4th Semester, BTech CSE.
+### 4th Semester, BTech CSE.
 ### INSTITUTE OF ENGINEERING AND MANAGEMENT, Kolkata.
 
 ## 👤 Contributor
