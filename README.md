@@ -29,9 +29,10 @@ The project follows these steps:
 1. **Data Preprocessing** 🛠️
    - Handles missing values
    - Normalizes and scales the data
+   - Balances imbalanced target class using SMOTE
    
 2. **Model Training** 🤖
-   - Uses a machine learning classification model to predict potability
+   - Uses a Random Forest classifier model to predict potability
    - Trains the model on labeled water quality data
 
 3. **User Input & Prediction** 🧪
