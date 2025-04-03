@@ -1,6 +1,10 @@
 # 🌊 Aqua Insight
 ### EVS PROJECT, 4th Semester, BTech CSE.
 ### INSTITUTE OF ENGINEERING AND MANAGEMENT, Kolkata.
+
+## 👤 Contributor
+**Atreyee Das** - Solo Contributor 🎓💻
+
 ## 📌 Project Overview
 Aqua Insight is a machine learning-based water quality analysis project designed to assess the potability of water based on various physicochemical parameters. The project takes user input, analyzes it, and determines whether the water is **safe** or **not safe** for consumption. Additionally, it provides insights into possible contamination causes and suggests purification methods.
 
@@ -45,8 +49,6 @@ The project follows these steps:
 - **Helps in Water Quality Monitoring** 🌎💧
 - **Aids in Water Treatment Decisions** 🏭⚗️
 
-## 👤 Contributor
-**Atreyee Das** - Solo Contributor 🎓💻
 
 ## 📌 How to Use
 1. Clone the repository:
